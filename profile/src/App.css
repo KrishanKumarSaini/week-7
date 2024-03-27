@@ -1,0 +1,74 @@
+* {
+  margin: 10px auto;
+  padding: 10px auto;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fafbf8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: 450px;
+}
+
+.img-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.name {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.age {
+  color: gray;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.name-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.loc {
+  color: gray;
+  font-weight: bold;
+  margin: 5px;
+}
+.info {
+  margin-top: 10px;
+  border-top: 2px solid gray;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+.followers > p {
+  color: gray;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.likes > p {
+  color: gray;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.photos > p {
+  color: gray;
+  font-weight: bold;
+  margin: 5px;
+}
